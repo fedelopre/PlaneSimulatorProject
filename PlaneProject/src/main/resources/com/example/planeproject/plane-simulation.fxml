@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.planeproject.PlaneSimulationController">
+   <center>
+      <Pane fx:id="root" prefHeight="279.0" prefWidth="622.0" style="-fx-background-color: #00ffff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="background" fitHeight="558.0" fitWidth="800.0" layoutY="-1.0">
+               <image>
+                  <Image url="@images/backgroundplane.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="background1" fitHeight="558.0" fitWidth="800.0" layoutX="800.0" layoutY="-1.0">
+               <image>
+                  <Image url="@images/backgroundplane1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="22.0" layoutY="17.0" text="Speed:" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="114.0" layoutY="16.0" text="km/h" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="speedLabel" layoutX="74.0" layoutY="17.0" prefHeight="21.0" prefWidth="37.0" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="17.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="44.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="speedField" layoutX="587.0" layoutY="10.0" />
+            <Label fx:id="planeName" layoutX="176.0" layoutY="8.0" prefHeight="29.0" prefWidth="356.0">
+               <font>
+                  <Font name="Calibri" size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="8.0" layoutY="7.0" mnemonicParsing="false" onAction="#startPlane" prefHeight="26.0" prefWidth="162.0" text="Start">
+               <font>
+                  <Font name="Calibri Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

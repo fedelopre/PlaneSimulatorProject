@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.planeproject.PlaneGameController">
+   <children>
+      <ImageView fx:id="background" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backgroundplane.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="background1" fitHeight="600.0" fitWidth="800.0" layoutX="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backgroundplane.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="24.0" text="SCORE">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="88.0" layoutY="24.0">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
