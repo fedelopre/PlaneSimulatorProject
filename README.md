@@ -21,6 +21,8 @@ Additionally, Plane Simulator features a game mode, where users can test their r
 
 <img width="794" alt="Screenshot 2023-06-06 alle 11 49 54" src="https://github.com/fedelopre/PlaneSimulatorProject/assets/92488155/96436a55-02f3-4b21-b4d7-0cab2b646d48">
 
+## License
+This project is under MIT license. --> SEE LICENSE FILE
 
 
 
