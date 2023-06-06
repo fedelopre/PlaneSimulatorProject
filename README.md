@@ -8,15 +8,16 @@ The app's design presents the takeoff speeds in a visually manner, making it eas
 Additionally, Plane Simulator features a game mode, where users can test their reflexes by guiding virtual airplanes through obstacles.
 
 ## Screenshot
-####Select plane
+
+#### Select plane
 
 <img width="597" alt="Screenshot 2023-06-06 alle 11 48 48" src="https://github.com/fedelopre/PlaneSimulatorProject/assets/92488155/2d4a95e1-4b60-4379-a27c-d7c2b338f912">
 
-####Takeoff simulator
+#### Takeoff simulator
 
 <img width="788" alt="Screenshot 2023-06-06 alle 11 49 14" src="https://github.com/fedelopre/PlaneSimulatorProject/assets/92488155/f202260a-0ed0-438f-8313-de612053665b">
 
-#####Plane game
+##### Plane game
 
 <img width="794" alt="Screenshot 2023-06-06 alle 11 49 54" src="https://github.com/fedelopre/PlaneSimulatorProject/assets/92488155/96436a55-02f3-4b21-b4d7-0cab2b646d48">
 
